@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-
+echo 'buildpack=nginx at=start-nginx line 2'
 psmgr=/tmp/nginx-buildpack-wait
 rm -f $psmgr
 mkfifo $psmgr
